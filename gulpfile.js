@@ -1,9 +1,7 @@
 
-//Thanks to https://forum.ionicframework.com/t/building-ionic-2-beta-7-apps-with-phonegap-build/53253/2
+//Thanks to https://forum.ionicframework.com/t/building-ionic-2-beta-7-apps-with-phonegap-build/53253
 //Run the following commands 
-//$ npm install --save-dev gulp-replace 
-//$ npm install --save-dev gulp-zip
-//$ npm install --save-dev merge-stream
+//$ npm install --save-dev gulp-replace gulp-zip merge-stream
 //PS: Dont forget to add source="npm" tag in all plugins saved in config.xml
 var replace = require('gulp-replace');
 var zip = require('gulp-zip');
